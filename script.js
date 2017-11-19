@@ -48,3 +48,27 @@
 	    	//tick.pause();
 	    }
 	}, 1000);
+	var w =document.getElementsByClassName('icon')[0];
+	w.style.fontSize="20px";
+	setInterval( function(){
+		if(w.style.fontSize=="20px"){
+			w.style.fontSize="22px";
+			w.style.margin="0.5px";
+		}
+		else if(w.style.fontSize=="22px"){
+			w.style.fontSize="24px";
+			w.style.margin="0px";
+		}
+		else if(w.style.fontSize=="24px"){
+			w.style.margin="0.25px";
+			w.style.fontSize="23px";
+		}
+		else if(w.style.fontSize=="23px"){
+			w.style.margin="0.75px";
+			w.style.fontSize="21px";
+		}
+		else{
+			w.style.margin="1px";
+			w.style.fontSize="20px";
+		}
+	},150);

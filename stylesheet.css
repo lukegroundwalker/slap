@@ -39,7 +39,11 @@ body {
 }
 
 #made {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 	color: white;
+	align-items: center;
 }
 
 .icon {

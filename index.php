@@ -31,8 +31,8 @@
 	<div class="intro">
 		<p>Remaining</p>
 	</div>
-	<div>
-		<p id="made">Made with <i class="icon ion-heart"></i> by Luke</p>
+	<div id="made">
+		<p>Made with <i class="icon ion-heart"></i><p> by Luke</p>
 	</div>
 	<audio src="Tick.mp3" id="tick"></audio>
 	<audio src="Bugs.mp3" id="end"></audio>
