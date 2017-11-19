@@ -32,7 +32,7 @@
 		<p>Remaining</p>
 	</div>
 	<div id="made">
-		<p>Made with <i class="icon ion-heart"></i><p> by Luke</p>
+		<p>Made with&nbsp;<i class="icon ion-heart"></i><p>&nbsp;by Luke</p>
 	</div>
 	<audio src="Tick.mp3" id="tick"></audio>
 	<audio src="Bugs.mp3" id="end"></audio>
